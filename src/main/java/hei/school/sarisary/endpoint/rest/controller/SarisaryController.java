@@ -11,6 +11,8 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import school.hei.poja.file.BucketComponent;
 
+@RestController
+@RequestMapping("/black-and-white")
 public class SarisaryController {
   private static BucketComponent bucketComponent;
 
@@ -32,7 +34,7 @@ public class SarisaryController {
     return tempFile;
   }
 
-  @PostMapping("/{id}")
+  @PutMapping("/{id}")
   public ResponseEntity<?> process_to_grayscale(@PathVariable String id, @RequestBody File image)
       throws IOException {
     BufferedImage bwImage = to_grayscale(image);
