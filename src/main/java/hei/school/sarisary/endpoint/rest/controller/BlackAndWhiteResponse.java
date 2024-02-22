@@ -1,6 +1,5 @@
 package hei.school.sarisary.endpoint.rest.controller;
 
-
 public class BlackAndWhiteResponse {
   private final String originalUrl;
   private final String transformedUrl;
