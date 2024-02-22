@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.*;
 import school.hei.poja.file.BucketComponent;
 
 @RestController
-@RequestMapping("/black-and-white")
+@RequestMapping("/blackhistory-and-white")
 public class SarisaryController {
   private static BucketComponent bucketComponent;
 
