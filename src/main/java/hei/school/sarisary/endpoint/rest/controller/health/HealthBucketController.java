@@ -6,7 +6,6 @@ import static java.nio.file.Files.createTempDirectory;
 import static java.util.UUID.randomUUID;
 
 import hei.school.sarisary.PojaGenerated;
-import hei.school.sarisary.file.BucketComponent;
 import hei.school.sarisary.file.FileHash;
 import java.io.File;
 import java.io.FileWriter;
